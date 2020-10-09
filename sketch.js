@@ -153,6 +153,10 @@ function draw() {
       song1.play();
       
     }
+         spawnBananas();
+    spawnObstacles();
+  
+    
   }
      
   else if(gameState===END){
@@ -170,13 +174,11 @@ function draw() {
       obstacle.visible=false;
       changeImage.visible=true;
       //song3.play();
+      score.visible=false;
   }   
     
 
-    spawnBananas();
-    spawnObstacles();
-  
-    
+   
   
     drawSprites();
     
