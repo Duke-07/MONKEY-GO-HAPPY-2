@@ -174,7 +174,7 @@ function draw() {
       obstacle.visible=false;
       changeImage.visible=true;
       //song3.play();
-      score.visible=false;
+      score= 0.visible=false;
   }   
     
 
